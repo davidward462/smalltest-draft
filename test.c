@@ -1,7 +1,10 @@
 #include <stdio.h>
 #include <stdbool.h>
+
+// Needs this to use header
 #include "test.h"
 
+// Test fails if argument is false.
 void assert_is_true(bool a)
 {
         if (!a) {
@@ -9,6 +12,7 @@ void assert_is_true(bool a)
         }
 }
 
+// Test fails if argument is true.
 void assert_is_false(bool a)
 {
         if (a) {

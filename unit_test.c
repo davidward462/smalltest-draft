@@ -7,18 +7,9 @@
 // Needs this to use assert()
 #include "test.h"
 
-// Random function for testing
-int abs(int a)
-{
-        int result;
-        if (a < 0) {
-                result = a * -1;
-        }
-        else {
-                result = a;
-        }
-        return result;
-}
+// Needs this to test user code
+#include "mylib.h"
+
 
 // Unit tests
 void test_abs_pass(int input_value, int expected_value)

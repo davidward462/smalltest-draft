@@ -3,6 +3,8 @@
 
 #include <stdbool.h>
 
-void assert(bool a, bool b);
+void assert_is_true(bool a);
+
+void assert_is_false(bool a);
 
 #endif

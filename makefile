@@ -1,10 +1,15 @@
 all: main
 
-main: main.o test.o unit_test.o mylib.o
-	gcc -o main main.o test.o unit_test.o mylib.o
+testing: unit_test
+
+main: main.o mylib.o
+	gcc -o main main.o mylib.o
 
 main.o: main.c
 	gcc -c main.c
+
+unit_test: unit_test.o test.o
+	gcc -o unit_test unit_test.o test.o
 
 unit_test.o: unit_test.c unit_test.h test.h mylib.h
 	gcc -c unit_test.c
@@ -19,5 +24,5 @@ clean:
 	rm *.o
 
 cleanall:
-	rm main *.o
+	rm main unit_test *.o
 

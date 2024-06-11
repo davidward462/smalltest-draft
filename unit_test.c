@@ -10,7 +10,6 @@
 // Needs this to test user code
 #include "mylib.h"
 
-
 // Unit tests
 void test_abs_pass(int input_value, int expected_value)
 {
@@ -36,6 +35,10 @@ void run_tests()
         printf("complete.\n");
 }
 
-
+int main()
+{
+        run_tests();
+        return 0;
+}
 
 

@@ -1,5 +1,5 @@
-#ifndef UNIT_TEST_H
-#define UNIT_TEST_H
+#ifndef TEST_H
+#define TEST_H
 
 // Testing user functions
 void test_abs_pass(int input_value, int expected_value);

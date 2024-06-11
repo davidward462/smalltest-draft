@@ -2,7 +2,7 @@
 #include <stdbool.h>
 
 // Needs this to use header
-#include "unit_test.h"
+#include "test.h"
 
 // Needs this to use assert()
 #include "test_lib.h"

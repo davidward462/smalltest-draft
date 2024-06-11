@@ -1,7 +1,6 @@
 #include <stdio.h>
 #include <stdbool.h>
 
-// Needs this to use header
 #include "test_lib.h"
 
 // Test fails if argument is false.

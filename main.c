@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdbool.h>
 
-// User functions
+// Import user libraries here
 #include "foo.h"
 
 int main(int argc, char** argv)

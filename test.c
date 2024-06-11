@@ -1,16 +1,12 @@
 #include <stdio.h>
 #include <stdbool.h>
-
-// Needs this to use header
 #include "test.h"
-
-// Needs this to use assert()
 #include "test_lib.h"
 
-// Needs this to test user code
+// Import user libraries here
 #include "foo.h"
 
-// Unit tests
+// Write unit tests here
 void test_abs_pass(int input_value, int expected_value)
 {
         assert_is_true(abs(input_value) == expected_value);

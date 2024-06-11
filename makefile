@@ -1,4 +1,4 @@
-all: main
+all: main unit_test
 
 testing: unit_test
 

@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "mylib.h"
+#include "foo.h"
 
 void message(char* s)
 {

@@ -2,7 +2,7 @@
 #include <stdbool.h>
 
 // Needs this to use header
-#include "test.h"
+#include "test_lib.h"
 
 // Test fails if argument is false.
 void assert_is_true(bool a)

@@ -2,7 +2,7 @@
 #include <stdbool.h>
 
 // User functions
-#include "mylib.h"
+#include "foo.h"
 
 int main(int argc, char** argv)
 {

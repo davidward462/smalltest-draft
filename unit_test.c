@@ -5,10 +5,10 @@
 #include "unit_test.h"
 
 // Needs this to use assert()
-#include "test.h"
+#include "test_lib.h"
 
 // Needs this to test user code
-#include "mylib.h"
+#include "foo.h"
 
 // Unit tests
 void test_abs_pass(int input_value, int expected_value)

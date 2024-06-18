@@ -19,8 +19,8 @@ foo.o: foo.c foo.h
 	gcc -c foo.c
 
 clean:
-	rm *.o
+	rm $(wildcard *.o)
 
 cleanall:
-	rm main test *.o
+	rm main test $(wildcard *.o)
 
